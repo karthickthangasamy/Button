@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Essential Studio for JavaScript : Button</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8" />
+    <link href="themes/bootstrap-theme/ej.web.all.min.css" rel="stylesheet" />
+    <script src="scripts/jquery-3.1.1.min.js"></script>
+    <script src="scripts/ej/ej.web.all.min.js"></script>
+</head>
+
+<body>
+    <div class="content-container-fluid">
+        <h2>Syncfusion JavaScript Button starter </h2>
+        <button id="btn">Button</button>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+
+            $("#btn").ejButton({
+                showRoundedCorner: true,
+                size: "medium",
+                contentType: "textandimage",
+                prefixIcon: "e-icon e-uiLight e-handup"
+            });
+        });
+    </script>
+</body>
+
+</html>
